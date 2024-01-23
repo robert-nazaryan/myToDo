@@ -40,10 +40,10 @@
                 <div class="row bg-white rounded shadow-sm p-2 add-todo-wrapper align-items-center justify-content-center">
                     <div class="col">
                         <input class="form-control form-control-lg border-0 add-todo-input bg-transparent rounded"
-                               type="text" placeholder="Add new .." name="title">
+                               type="text" placeholder="Add new .." name="title" required>
                     </div>
                     <div class="col-auto m-0 px-2 d-flex align-items-center">
-                        <input type="date" name="finishDate">
+                        <input type="date" name="finishDate" required>
                     </div>
                     <div class="col-auto px-0 mx-0 mr-2">
                         <button type="submit" class="btn btn-primary">Add</button>
